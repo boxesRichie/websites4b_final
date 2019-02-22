@@ -1,0 +1,139 @@
+body{
+    background-color:#252525;
+    background-image:url(../images/backgroundimagesword.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:auto;
+    color:#e8e8e8;
+    margin:0 auto;
+}
+/*----------start nav-bar----------------------------------*/
+.nav-bar{
+    width:auto;
+    height:205px;
+    background-color:rgba(0, 0, 0, .8);
+    top:25px;
+    left:25px;
+    right:25px;
+    text-align:center;
+    padding:0px;
+    position:fixed;
+    z-index:1;
+}
+
+.fantitle{
+    width:75%;
+    height:auto;
+}
+
+.navlist{
+    width:80%;
+}
+.list-item{
+    width:25%;
+    text-align:center;
+    margin:20px 0px 20px 0px;
+    padding:0px 110px 0px 110px;
+    background-color:rgba(0, 0, 0, .8);
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+    
+}
+.list-item:hover{
+    background-color:#ef9d00;
+    color:#000000;
+}
+/*-----------end of the nav-bar----------*/
+/*-------------start of hero image--------*/
+section{
+    position:relative;
+}
+.heroimages{
+    background-image:url(../images/darksoulhero6.png);
+    background-size:cover;
+    height:950px;
+    width:100%;
+    text-align:center;
+    background-repeat:no-repeat;
+    background-position:center center;
+    top:300px;
+    position:absolute;
+    margin-top:50px;
+}
+
+.comment{
+    margin-top:-70px;
+    text-align:center;
+    width:100%;
+    height:auto;
+    Font-size:50px;
+    position:relative;
+    
+}
+/*------------end of hero image-----------*/
+/*---------start of main-------*/
+
+.main{
+    width:100%;
+    height:500px;
+    padding:5px;
+    text-align:justify;
+    margin-top:1310px;
+    position:relative;
+}
+
+.mainbox{
+    width:46%;
+    height:auto;
+    display:inline-block;
+    margin:25px 15px 25px 15px;
+    border:4px solid #ffffff;
+    padding:10px;
+    float:left;
+}
+
+.mainimg{
+    height:auto;
+    width:100%;
+}
+
+/*-------end of main------*/
+/*-------start of footer-----*/
+.footer{
+    height:auto;
+    width:100%;
+    background-color:rgba(0, 0, 0, .8);
+    position:absolute;
+}
+
+.footer-col{
+    display:inline-block;
+    width:33%;
+    text-align:center;
+}
+.footer-button{
+    padding:15px;
+}
+
+.fa-facebook-square{
+    color:#4267b2;
+    font-size:2em;
+    margin:7px;
+}
+
+.fa-instagram{
+    color:#d10869;
+    font-size:2em;
+    margin:7px;
+}
+
+.socialmed{
+    height:50px;
+    width:50px;
+}
+
+.copyright{
+    text-align:center;
+/*--------end of footer------*/
+

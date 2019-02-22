@@ -1,0 +1,147 @@
+body{
+    background-color:#252525;
+    background-image:url(../images/backgroundimagesword.png);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:auto;
+    color:#e8e8e8;
+    margin:0 auto;
+}
+/*----------start nav-bar----------------------------------*/
+.nav-bar{
+    width:auto;
+    height:205px;
+    background-color:rgba(0, 0, 0, .8);
+    top:25px;
+    left:25px;
+    right:25px;
+    text-align:center;
+    padding:0px;
+    position:fixed;
+    z-index:1;
+}
+
+.fantitle{
+    width:75%;
+    height:auto;
+}
+
+.navlist{
+    width:80%;
+}
+.list-item{
+    width:25%;
+    text-align:center;
+    margin:20px 0px 20px 0px;
+    padding:0px 110px 0px 110px;
+    background-color:rgba(0, 0, 0, .8);
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+    
+}
+.list-item:hover{
+    background-color:#ef9d00;
+    color:#000000;
+}
+    /*--------end of nab bar------*/
+    /*---------start of section-------*/
+    
+    .section{
+        width:100%;
+        height:auto;
+        margin-top:285px;
+        padding:25px;
+        display:inline-block;
+        clear:fixed;
+        position:relative;
+    }
+    
+    .column1{
+        width:28%;
+        height:700px;
+        padding:10px;
+        margin:15px;
+        border:5px solid #ffffff;
+        display:inline-block;
+        float:left;
+    }
+    
+    .col.img{
+        width:100%;
+        height:auto;
+    }
+    
+    .column2{
+        width:28%;
+        height:700px;
+        padding:10px;
+        margin:15px;
+        border:5px solid #ffffff;
+        display:inline-block;
+        float:left;
+    }
+    
+    .audio{
+        
+    }
+    .column3{
+        width:28%;
+        height:700px;
+        padding:10px;
+        margin:15px;
+        border:5px solid #ffffff;
+        display:inline-block;
+        float:left;
+    }
+    
+    /*-----------end of section--------*/
+    
+    
+    
+    
+    
+    
+    /*-------start of footer-----*/
+.footer{
+    height:auto;
+    width:100%;
+    background-color:rgba(0, 0, 0, .8);
+}
+
+.footer-col{
+    display:inline-block;
+    width:33%;
+    text-align:center;
+}
+.footer-button{
+    padding:15px;
+}
+
+.fa-facebook-square{
+    color:#4267b2;
+    font-size:2em;
+    margin:7px;
+}
+
+.fa-instagram{
+    color:#d10869;
+    font-size:2em;
+    margin:7px;
+}
+
+.socialmed{
+    height:50px;
+    width:50px;
+}
+
+.copyright{
+    text-align:center;
+/*--------end of footer------*/
+
+
+
+
+
+}
+/*-----------end of the nav-bar----------*/
